@@ -3,8 +3,34 @@
     <head>
 
     </head>
-    <body>
+    <body class="component-body">
 
+        <div class="row">
+            <div class="col column1">
+                <div class="content-items" (click)="coffeeOnClick()">
+                    <div class="card h-100" id="coffee-card">
+                        <img src="../../assets/coffee.png" class="card-img-top" alt="coffee">
+                        <div class="card-body">
+                          <h5 class="card-title">Kaffee</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+
+            <div class="col column2">
+                <div class="content-items" (click)="bibleOnClick()">
+                    <div class="card h-100" id="bible-card">
+                        <img src="../../assets/bible.png" class="card-img-top" alt="coffee">
+                        <div class="card-body">
+                            <h5 class="card-title">Bibel TV</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--
         <div class="content-items" (click)="coffeeOnClick()">
             <div class="card" id="coffee-card" style="width: 18rem;">
                 <img src="../../assets/coffee.png" class="card-img-top" alt="coffee">
@@ -16,15 +42,15 @@
         </div>
 
         <div class="content-items">
-            <div class="card" style="width: 18rem;">
-                <img src="../../assets/coffee.png" class="card-img-top" alt="coffee">
+            <div class="card" id="bible-card" style="width: 18rem;">
+                <img src="../../assets/bible.png" class="card-img-top" alt="coffee">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
+                  <h5 class="card-title">Bibel TV</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
             </div>
         </div>
+        -->
 
     </body>
 </html>

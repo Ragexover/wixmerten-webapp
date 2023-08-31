@@ -13,4 +13,8 @@ export class MainScreenComponent {
   coffeeOnClick() {
     this.router.navigate(['coffee']);
   }
+
+  bibleOnClick() {
+
+  }
 }
